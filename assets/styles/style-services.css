@@ -1,0 +1,66 @@
+.title-services {
+    font-family: var(--font-primaria);
+    margin-left: 5rem;
+    margin-top: 3%;
+}
+.card-services {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 5%;
+
+}
+.card-service-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 300px;
+    height: 600px;
+    border: 1px solid red;
+    background-color: #40A2D8;
+    border-radius: 2rem;
+    text-align: center;
+    overflow: hidden;
+    
+    
+}
+.card-service-item:hover {
+    box-shadow: 0px -1px 17px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px -1px 17px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -1px 17px 0px rgba(0,0,0,0.75);
+}
+.card-service-item img {
+    width: 100%;
+    height: 200px;
+    border-radius: 2rem 2rem 2rem 0rem;
+}
+.card-service-item h1 {
+    background-color: rgb(0, 0, 0);
+    color: var(--cor-secundaria);
+    font-size: 2rem;
+    width: 280px;
+    border-radius: 5rem;
+    margin-left: -2rem;
+    overflow: hidden;
+}
+.card-service-item h2 {
+    background-color: rgb(0, 0, 0);
+    color: var(--cor-secundaria);
+    font-size: 2rem;
+    width: 280px;
+    border-radius: 5rem;
+    margin-left: 3rem;
+}
+.card-service-item p {
+    color: var(--cor-tercaria);
+    font-family: var(--font-secundaria);
+    font-size: 12px;
+}
+.card-service-item a {
+    color: var(--cor-secundaria);
+    font-family: var(--font-secundaria);
+    text-decoration: none;
+    background-color: blue;
+    padding: 10px;
+}

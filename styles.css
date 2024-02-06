@@ -20,6 +20,9 @@ header {
     height: 150px;
     background-color: var(--cor-primairia)
 }
+.topnav {
+    display: none;
+}
 
 .nav-liks {
     display: flex;

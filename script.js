@@ -2,8 +2,11 @@ setInterval(function() {
     document.getElementById('carouselExample').carousel('next');
   }, 10000);
 
-  var locTopDiv = document.getElementById("locTopDiv");
-
-  window.addEventListener("scroll", function() {
-    locTopDiv.style.display = "none";
-  });
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+}

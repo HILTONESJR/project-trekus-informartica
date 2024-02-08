@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Montserrat:wght@600&display=swap');
 
 :root {
-    --cor-primairia: #000;
+    --cor-primairia: #5F0F40;
     --cor-secundaria: #fff;
     --cor-terçaria: grey;
     --font-primaria: 'Arvo', serif;
@@ -53,7 +53,7 @@ header {
 }
 .article {
     display: flex;    
-    margin-top: 8rem;
+    margin-top: 5rem;
     width: 100%;
     justify-content: center;
 }
@@ -71,6 +71,7 @@ header {
     color: var(--cor-terçaria);
     font-family: var(--font-secundaria);
     font-size: 18px;
+    margin-top: 2%;
 }
 .article-history {
     display: flex;
@@ -108,7 +109,7 @@ footer {
     width: 100%;
     height: 150px;
     margin-top: 5%;
-    background-color: #000;
+    background-color: var(--cor-primairia);
 }
 .footer-logo-tipo {
     display: flex;

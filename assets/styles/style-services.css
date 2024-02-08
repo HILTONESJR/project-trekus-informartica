@@ -1,13 +1,50 @@
+.article-serv {
+    margin-top: 2rem;
+    width: 100%;
+    margin-bottom: 10%;
+  }
+
+  .article-sobre-serv {
+    margin-left: 11%;
+  }
+.article-sobre-serv {
+    width: 85%;
+    text-align: center;
+   }
+   .article-sobre-serv {
+    width: 80%;
+    height: 200px;
+    text-align: center;
+}
+.article-sobre-serv h1 {
+    font-family: var(--font-primaria);
+    font-weight: 400;
+    margin-top: 5%;
+    font-size: 2rem;
+
+}
+.article-sobre-serv p {
+    color: var(--cor-terçaria);
+    font-family: var(--font-secundaria);
+    font-size: 1.2rem;
+    margin-top: 5%;
+}
+
 .title-services {
+    box-sizing: border-box;
     font-family: var(--font-primaria);
     margin-left: 5rem;
-    margin-top: 3%;
+    margin-top: 10rem;
+}
+.title-services h4 {
+    font-size: 2rem;
+    margin-top: 5rem;
 }
 .card-services {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 5rem;
+    gap: 3rem;
     margin-top: 5%;
 
 }
@@ -18,7 +55,7 @@
     width: 300px;
     height: 600px;
     border: 1px solid red;
-    background-color: #40A2D8;
+    background-color: #FB8B24;
     border-radius: 2rem;
     text-align: center;
     overflow: hidden;
@@ -36,31 +73,40 @@
     border-radius: 2rem 2rem 2rem 0rem;
 }
 .card-service-item h1 {
-    background-color: rgb(0, 0, 0);
+    background-color: #9A031E;
     color: var(--cor-secundaria);
-    font-size: 2rem;
+    font-size: 1.5rem;
     width: 280px;
     border-radius: 5rem;
     margin-left: -2rem;
     overflow: hidden;
 }
 .card-service-item h2 {
-    background-color: rgb(0, 0, 0);
+    background-color: #9A031E;
     color: var(--cor-secundaria);
-    font-size: 2rem;
+    font-size: 1.5rem;
     width: 280px;
     border-radius: 5rem;
-    margin-left: 3rem;
+    margin-left: 2.5rem;
 }
 .card-service-item p {
     color: var(--cor-tercaria);
     font-family: var(--font-secundaria);
     font-size: 12px;
 }
+.saiba-m1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    background-color: #9A031E;
+    margin-left: 25%;
+    border-radius: 1rem;
+}
 .card-service-item a {
     color: var(--cor-secundaria);
     font-family: var(--font-secundaria);
-    text-decoration: none;
-    background-color: blue;
-    padding: 10px;
+    text-decoration: none;    
 }

@@ -1,407 +1,505 @@
-@media (max-width: 360px){
-    .nav-liks {
-        display: none;
-    }
-    header {
-        width: 100%;
-        height: 3rem;
-    }
-    .topnav {
-        display: block;
-        overflow: hidden;
-        background-color: #000000;
-        position: relative;
-        z-index: 99;
-      }
-    
-      /* Hide the links inside the navigation menu (except for logo/home) */
-      .topnav #myLinks {
-        display: none;
-      }
-    
-      /* Style navigation menu links */
-      .topnav a {
-        color: var(--cor-secundaria);
-        font-family: var(--font-secundaria);
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        display: block;
-      }
-    
-      /* Style the hamburger menu */
-      .topnav a.icon {
-        background: var(--cor-primaria);
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
-      }
-    
-      /* Add a grey background color on mouse-over */
-      .topnav a:hover {
-        background-color: #3a2e2e;
-        color: rgb(255, 255, 255);
-        font-family: var(--font-secundaria);
-      }
-    
-      /* Style the active link (or home/logo) */
-      .active {
-        background-color: #000000;
-        color: white;
-      }
-      .article {
-        margin-top: 2rem;
-      }
-      .article-sobre h1 {
-        font-size: 1rem;
-      }
-      .article-sobre p {
-        font-size: 0.5rem;
-      }
-      .article-sobre {
-        width: 300px;
-        height: 200px;
-      }
-      .article-history {
-        flex-direction: column-reverse;
-        margin-top: 2rem;
-        margin-left: 2.5rem;
-      }
-      .history-text {
-        width: 85%;
-      }
-      .history-img img {
-        margin-top: 4rem;
-        width: 85%;
-      }
-      footer {
-        width: 100%;
-        height: 300px;
-        margin-top: 5%;
-        background-color: #000;
-      }
-      .footer-logo-tipo {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        
-      }
-     .footer-logo-tipo-img {
-        display: none;
-     }
-     .footer-logo-tipo-text {
-        display: none;
-     }
-      .footer-link-nav {
-        display: none;
-      }
-     .footer-end-contact {
-        width: 150px;
-        height: 300px;
-        display: flex;
-        flex-direction: row;
-        gap: 2rem;
-        margin-left: -50px;
-     }
-    
-     .esdress {
-        width: 344px;
-        margin-top: 2rem;
-    
-     }
-     .contact {
-        width: 250px;
-        display: flex;
-        flex-direction: column;
-    }
-  
+@media (min-width: 360px) and (max-width: 400px) {
+  .nav-liks {
+    display: none;
+  }
+  header {
+    width: 100%;
+    height: 3rem;
+  }
+  .topnav {
+    display: block;
+    overflow: hidden;
+    background-color: #000000;
+    position: relative;
+    z-index: 99;
+  }
 
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+
+  /* Style navigation menu links */
+  .topnav a {
+    color: var(--cor-secundaria);
+    font-family: var(--font-secundaria);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: var(--cor-primaria);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #3a2e2e;
+    color: rgb(255, 255, 255);
+    font-family: var(--font-secundaria);
+  }
+
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #000000;
+    color: white;
+  }
+  .article {
+    margin-top: 2rem;
+  }
+  .article-sobre h1 {
+    font-size: 1rem;
+  }
+  .article-sobre p {
+    font-size: 0.5rem;
+  }
+  .article-sobre {
+    width: 85%;
+    height: 30px;
+  }
+  .article-history {
+    flex-direction: column-reverse;
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+  }
+  .history-text {
+    width: 85%;
+  }
+  .history-img img {
+    margin-top: 4rem;
+    width: 85%;
+    margin-left: -1rem;
+  }
+  footer {
+    width: 100%;
+    height: 300px;
+    margin-top: 5%;
+    background-color: #000;
+  }
+  .footer-logo-tipo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 0rem;
+  }
+  .footer-logo-tipo-img {
+    display: none;
+  }
+  .footer-logo-tipo-text {
+    display: none;
+  }
+  .footer-link-nav {
+    display: none;
+  }
+  .footer-end-contact {
+    width: 150px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .esdress {
+    width: 280px;
+    margin-top: 2rem;
+  }
+  .contact {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+  }
+  /* Responsive Serviços */
+  .article-serv {
+    box-sizing: border-box;
+    height: 450px;
+  }
+  .article-sobre-serv h1 {
+    margin-top: 5%;
+    font-size: 1.5rem;
+  }
+  .article-sobre-serv p {
+    font-size: 0.5rem;
+    margin-top: 5%;
+  }
+  .article-sobre-serv {
+    margin-left: 11%;
+  }
+  .title-services {
+    text-align: center;
+    width: 75%;
+  }
+
+  .title-services h4 {
+    text-align: center;
+    margin-left: -25%;
+    font-size: 1.5rem;
+  }
+  .title-services h5 {
+    text-align: center;
+    margin-left: -20%;
+  }
+  .card-services {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  /* reposinve Contact */
+
+  .container-text-form {
+    flex-direction: column-reverse;
+  }
 
 }
-@media (max-width: 428px){
-    .nav-liks {
-        display: none;
-    }
-    header {
-        width: 100%;
-        height: 3rem;
-    }
-    .topnav {
-        display: block;
-        overflow: hidden;
-        background-color: #000000;
-        position: relative;
-        z-index: 99;
-      }
-    
-      /* Hide the links inside the navigation menu (except for logo/home) */
-      .topnav #myLinks {
-        display: none;
-      }
-    
-      /* Style navigation menu links */
-      .topnav a {
-        color: var(--cor-secundaria);
-        font-family: var(--font-secundaria);
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        display: block;
-      }
-    
-      /* Style the hamburger menu */
-      .topnav a.icon {
-        background: var(--cor-primaria);
-        display: block;
-        position: absolute;
-        right: 0;
-        top: 0;
-      }
-    
-      /* Add a grey background color on mouse-over */
-      .topnav a:hover {
-        background-color: #3a2e2e;
-        color: rgb(255, 255, 255);
-        font-family: var(--font-secundaria);
-      }
-    
-      /* Style the active link (or home/logo) */
-      .active {
-        background-color: #000000;
-        color: white;
-      }
-      .article {
-        margin-top: 2rem;
-      }
-      .article-sobre h1 {
-        font-size: 1.5rem;
-      }
-      .article-sobre p {
-        font-size: 0.8rem;
-      }
-      .article-sobre {
-        width: 300px;
-        height: 200px;
-      }
-      .article-history {
-        flex-direction: column-reverse;
-        margin-top: 2rem;
-        margin-left: 2.5rem;
-      }
-      .history-text {
-        width: 85%;
-      }
-      .history-img img {
-        width: 85%;
-        margin-left: -1rem;
-      }
-      footer {
-        width: 100%;
-        height: 300px;
-        margin-top: 5%;
-        background-color: #000;
-      }
-      .footer-logo-tipo {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        margin-left: -0.5rem;
-        
-      }
-     .footer-logo-tipo-img {
-        display: none;
-     }
-     .footer-logo-tipo-text {
-        display: none;
-     }
-      .footer-link-nav {
-        display: none;
-      }
-     .footer-end-contact {
-        width: 150px;
-        height: 300px;
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-        margin-left: -65px;
-     }
-     .contact {
-        left: 0;
-     }
-     .esdress {
-        width: 344px;
-        margin-top: 2rem;
-    
-     }
-     .contact {
-        width: 250px;
-        display: flex;
-        flex-direction: column;
-    }
-    }
 
-    @media (max-width: 800px){
-        .nav-liks {
-            display: none;
-        }
-        header {
-            width: 100%;
-            height: 3rem;
-        }
-        .topnav {
-            display: block;
-            overflow: hidden;
-            background-color: #000000;
-            position: relative;
-            z-index: 99;
-          }
-        
-          /* Hide the links inside the navigation menu (except for logo/home) */
-          .topnav #myLinks {
-            display: none;
-          }
-        
-          /* Style navigation menu links */
-          .topnav a {
-            color: var(--cor-secundaria);
-            font-family: var(--font-secundaria);
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 17px;
-            display: block;
-          }
-        
-          /* Style the hamburger menu */
-          .topnav a.icon {
-            background: var(--cor-primaria);
-            display: block;
-            position: absolute;
-            right: 0;
-            top: 0;
-          }
-        
-          /* Add a grey background color on mouse-over */
-          .topnav a:hover {
-            background-color: #3a2e2e;
-            color: rgb(255, 255, 255);
-            font-family: var(--font-secundaria);
-          }
-        
-          /* Style the active link (or home/logo) */
-          .active {
-            background-color: #000000;
-            color: white;
-          }
-          .article {
-            margin-top: 2rem;
-          }
-          .article-sobre h1 {
-            font-size: 2rem;
-          }
-          .article-sobre p {
-            font-size: 1rem;
-          }
-          .article-sobre {
-            width: 600px;
-            height: 200px;
-          }
-          .article-history {
-            flex-direction: column-reverse;
-            margin-top: 2rem;
-            margin-left: 2.5rem;
-          }
-          .history-text {
-            width: 85%;
-          }
-          .history-img img {
-            width: 95%;
-          }
-          footer {
-            width: 100%;
-            height: 300px;
-            margin-top: 5%;
-            background-color: #000;
-          }
-          .footer-logo-tipo {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            
-          }
-         .footer-logo-tipo-img {
-            display: none;
-         }
-         .footer-logo-tipo-text {
-            display: none;
-         }
-          .footer-link-nav {
-            display: none;
-          }
-         .footer-end-contact {
-            width: 150px;
-            height: 300px;
-            display: flex;
-            flex-direction: column;
-            gap: 2rem;
-            margin-left: -70px;
-         }
-         .contact {
-            width: 250px;
-            display: flex;
-            flex-direction: column;
-        }
-         .esdress {
-            width: 344px;
-            margin-top: 2rem;
-        
-         }
-          .contact {
-        width: 250px;
-        display: flex;
-        flex-direction: column;
-    }
-        }
-        @media (max-width: 1280px){
-              .article {
-                margin-top: 2rem;
-              }
-              .article-sobre h1 {
-                font-size: 2rem;
-              }
-              .article-sobre p {
-                font-size: 1rem;
-              }
-              .article-sobre {
-                width: 600px;
-                height: 200px;
-              }
-              .article-history {
-                flex-direction: column-reverse;
-                margin-top: 2rem;
-                margin-left: 2.5rem;
-              }
-              .history-text {
-                width: 85%;
-              }
-              .history-img img {
-                width: 95%;
-              }
-              .footer-link-nav {
-                width: 120px;
-                margin-left: 2%;
-            }
-            .footer-end-contact {
-                margin-top: 1rem;
-                margin-left: 1%;                
-            }
-            .esdress {
-                width: 350px;
-            }
-            .contact {
-                margin-top: -1rem;
-            }
-        }
+@media (min-width: 428px) and (max-width: 700px) {
+  .nav-liks {
+    display: none;
+  }
+  header {
+    width: 100%;
+    height: 3rem;
+  }
+  .topnav {
+    display: block;
+    overflow: hidden;
+    background-color: #000000;
+    position: relative;
+    z-index: 99;
+  }
+
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+
+  /* Style navigation menu links */
+  .topnav a {
+    color: var(--cor-secundaria);
+    font-family: var(--font-secundaria);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: var(--cor-primaria);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #3a2e2e;
+    color: rgb(255, 255, 255);
+    font-family: var(--font-secundaria);
+  }
+
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #000000;
+    color: white;
+  }
+  .article {
+    margin-top: 2rem;
+  }
+  .article-sobre h1 {
+    font-size: 1.5rem;
+  }
+  .article-sobre p {
+    font-size: 0.8rem;
+  }
+  .article-sobre {
+    width: 300px;
+    height: 200px;
+  }
+  .article-history {
+    flex-direction: column-reverse;
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+  }
+  .history-text {
+    width: 85%;
+  }
+  .history-img img {
+    width: 85%;
+    margin-left: -1rem;
+  }
+  footer {
+    width: 100%;
+    height: 300px;
+    margin-top: 5%;
+    background-color: #000;
+  }
+  .footer-logo-tipo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: -0.5rem;
+  }
+  .footer-logo-tipo-img {
+    display: none;
+  }
+  .footer-logo-tipo-text {
+    display: none;
+  }
+  .footer-link-nav {
+    display: none;
+  }
+  .footer-end-contact {
+    width: 150px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-left: 10px;
+  }
+  .contact {
+    left: 0;
+  }
+  .esdress {
+    width: 344px;
+    margin-top: 2rem;
+  }
+  .contact {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+  }
+  /* Responsive Serviços 428*/
+  .article-serv {
+    box-sizing: border-box;
+    height: 450px;
+  }
+
+  .article-sobre-serv {
+    margin-left: 11%;
+  }
+  .article-sobre-serv h1 {
+    font-size: 1.5rem;
+  }
+  .title-services {
+    text-align: center;
+    width: 80%;
+  }
+  .title-services h4 {
+    text-align: center;
+    margin-left: -20%;
+  }
+  .title-services h5 {
+    text-align: center;
+    margin-left: -20%;
+  }
+  .card-services {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  /* reposinve Contact */
+  .container-text-form {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1100px) {
+  .nav-liks {
+    display: none;
+  }
+  header {
+    width: 100%;
+    height: 3rem;
+  }
+  .topnav {
+    display: block;
+    overflow: hidden;
+    background-color: #000000;
+    position: relative;
+    z-index: 99;
+  }
+
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+
+  /* Style navigation menu links */
+  .topnav a {
+    color: var(--cor-secundaria);
+    font-family: var(--font-secundaria);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: var(--cor-primaria);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #3a2e2e;
+    color: rgb(255, 255, 255);
+    font-family: var(--font-secundaria);
+  }
+
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #000000;
+    color: white;
+  }
+  .article {
+    margin-top: 2rem;
+  }
+  .article-sobre h1 {
+    font-size: 2rem;
+  }
+  .article-sobre p {
+    font-size: 1rem;
+  }
+  .article-sobre {
+    width: 600px;
+    height: 200px;
+  }
+  .article-history {
+    flex-direction: column-reverse;
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+  }
+  .history-text {
+    width: 85%;
+  }
+  .history-img img {
+    width: 95%;
+  }
+  footer {
+    width: 100%;
+    height: 300px;
+    margin-top: 5%;
+    background-color: #000;
+  }
+  .footer-logo-tipo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 0;
+  }
+  .footer-logo-tipo-img {
+    display: none;
+  }
+  .footer-logo-tipo-text {
+    display: none;
+  }
+  .footer-link-nav {
+    display: none;
+  }
+  .footer-end-contact {
+    width: 150px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .contact {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+  }
+  .esdress {
+    width: 344px;
+    margin-top: 2rem;
+  }
+  .contact {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+  }
+  /* Responsive Serviços */
+  .article-serv {
+    margin-top: 2rem;
+    width: 100%;
+    margin-bottom: 10%;
+  }
+
+  .article-sobre-serv {
+    margin-left: 11%;
+  }
+  .article-sobre-serv h1 {
+    font-size: 1.5rem;
+  }
+  .card-services {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  /* reposinve Contact */
+  .container-text-form {
+    flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .article {
+    margin-top: 2rem;
+  }
+  .article-sobre h1 {
+    font-size: 1.5rem;
+  }
+  .article-sobre p {
+    font-size: 1rem;
+  }
+  .article-sobre {
+    width: 600px;
+    height: 200px;
+  }
+  .article-history {
+    flex-direction: column-reverse;
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+  }
+  .history-text {
+    width: 85%;
+  }
+  .history-img img {
+    width: 95%;
+  }
+  .footer-link-nav {
+    width: 120px;
+    margin-left: 2%;
+  }
+  .footer-end-contact {
+    margin-top: 1rem;
+    margin-left: 1%;
+  }
+  .esdress {
+    width: 350px;
+  }
+  .contact {
+    margin-top: -1rem;
+  }
+  .article-sobre-serv {
+    width: 90%;
+  }
+  .article {
+    margin-top: 5%;
+  }
+  /* reposinve Services */
+  .card-services {
+    flex-wrap: wrap;
+}
+ /* reposinve Contact */
+}

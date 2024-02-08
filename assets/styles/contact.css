@@ -46,7 +46,7 @@
     
     width: 600px;
     height: 600px;
-    border: 1rem solid blue;
+    border: 1rem solid var(--cor-primairia);
     border-radius: 1rem;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -56,13 +56,13 @@ form {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    background-color: blue;
+    background-color: var(--cor-primairia);
     color: var(--cor-secundaria);
     font-weight: bold;
 }
 input {
-    background-color: rgb(200, 200, 212);
+    background-color: #Fff;
 }
 textarea {
-    background-color: rgb(200, 200, 212);
+    background-color: #fff;
 }

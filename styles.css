@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Montserrat:wght@600&display=swap');
 
 :root {
-    --cor-primairia: #5F0F40;
+    --cor-primairia: #FB8B24;
     --cor-secundaria: #fff;
-    --cor-terçaria: grey;
+    --cor-tercaria: grey;
+    --cor-quarcaria: #000;
     --font-primaria: 'Arvo', serif;
     --font-secundaria: 'Montserrat', sans-serif;
 }
@@ -37,19 +38,21 @@ header {
     font-size: 25px;
     padding: 2rem;
     margin-top: 1.5rem;
-    color: white;
+    color: var(--cor-quarcaria);
+    font-weight: bold;
 }
 .nav-liks a:hover {
     text-decoration: none;
     font-size: 25px;
     padding: 2rem;
     margin-top: 1.5rem;
-    color: rgb(59, 16, 253);
+    color: rgb(136, 89, 89);
 }
 .nav-liks img {
-    width: 100px;
-    height: 100px;
+    width: 250px;
+    height: 130px;
     z-index: 10;
+    margin-top: 10px;
 }
 .article {
     display: flex;    
@@ -118,15 +121,9 @@ footer {
     gap: 1rem;
 }
 .footer-logo-tipo-img img {
-    width: 100px;
-    height: 100px;
-    margin-top: 2rem;
-}
-.footer-logo-tipo-text img {
-    width: 200px;
-    height: 100px;
-    margin-top: 2rem;
-
+    width: 270px;
+    height: 130px;
+    margin-top: 1rem;
 }
 .footer-link-nav {
     display: flex;
@@ -139,7 +136,7 @@ footer {
     width: 250px;
     text-decoration: none;
     font-family: var(--font-primaria);
-    color: var(--cor-secundaria);
+    color: var(--cor-quarcaria);
 }
 .footer-end-contact {
     display: flex;
@@ -149,11 +146,11 @@ footer {
     
 }
 .footer-end-contact h5 {
-    color: var(--cor-secundaria);
+    color: var(--cor-quarcaria);
 }
 .footer-end-contact a {
     text-decoration: none;
-    color: var(--cor-secundaria);
+    color: var(--cor-quarcaria);
 }
 .footer-end-contact img {
     filter: invert(100%)

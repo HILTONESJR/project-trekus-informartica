@@ -54,7 +54,7 @@
     gap: 2rem;
     width: 300px;
     height: 600px;
-    border: 1px solid red;
+    border: 1px solid var(--cor-quarcaria);
     background-color: #FB8B24;
     border-radius: 2rem;
     text-align: center;
@@ -73,7 +73,7 @@
     border-radius: 2rem 2rem 2rem 0rem;
 }
 .card-service-item h1 {
-    background-color: #9A031E;
+    background-color: var(--cor-quarcaria);
     color: var(--cor-secundaria);
     font-size: 1.5rem;
     width: 280px;
@@ -82,7 +82,7 @@
     overflow: hidden;
 }
 .card-service-item h2 {
-    background-color: #9A031E;
+    background-color: var(--cor-quarcaria);
     color: var(--cor-secundaria);
     font-size: 1.5rem;
     width: 280px;
@@ -90,7 +90,7 @@
     margin-left: 2.5rem;
 }
 .card-service-item p {
-    color: var(--cor-tercaria);
+    color: var(--cor-quarcaria);
     font-family: var(--font-secundaria);
     font-size: 12px;
 }
@@ -101,7 +101,7 @@
     align-items: center;
     width: 150px;
     height: 50px;
-    background-color: #9A031E;
+    background-color: var(--cor-quarcaria);
     margin-left: 25%;
     border-radius: 1rem;
 }

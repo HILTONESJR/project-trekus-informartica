@@ -40,7 +40,7 @@
 }
 .contact-text-two a {
     text-decoration: none;
-    color: #000;
+    color: var(--cor-quarcaria);
 }
 .contact-form {
     
@@ -65,4 +65,7 @@ input {
 }
 textarea {
     background-color: #fff;
+}
+label {
+    color: var(--cor-quarcaria);
 }

@@ -55,7 +55,7 @@
     width: 300px;
     height: 600px;
     border: 1px solid var(--cor-quarcaria);
-    background-color: #FB8B24;
+    background-color: var(--cor-primaria);
     border-radius: 2rem;
     text-align: center;
     overflow: hidden;

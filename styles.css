@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Montserrat:wght@600&display=swap');
 
 :root {
-    --cor-primairia: #FB8B24;
+    --cor-primaria: #FB8B24;  /*cabeçalhos e rodapes */
     --cor-secundaria: #fff;
-    --cor-tercaria: grey;
-    --cor-quarcaria: #000;
-    --font-primaria: 'Arvo', serif;
-    --font-secundaria: 'Montserrat', sans-serif;
+    --cor-tercaria: grey; /* fonts */
+    --cor-quarcaria: #000; /* fonts e fundos */
+    --font-primaria: 'Arvo', serif;  /* fonts H1 */
+    --font-secundaria: 'Montserrat', sans-serif; /* fonts h2 */
 }
 
 * {
@@ -19,7 +19,7 @@ body {
 header {
     width: 100%;
     height: 150px;
-    background-color: var(--cor-primairia)
+    background-color: var(--cor-primaria);
 }
 .topnav {
     display: none;
@@ -112,7 +112,7 @@ footer {
     width: 100%;
     height: 150px;
     margin-top: 5%;
-    background-color: var(--cor-primairia);
+    background-color: var(--cor-primaria);
 }
 .footer-logo-tipo {
     display: flex;
@@ -151,9 +151,6 @@ footer {
 .footer-end-contact a {
     text-decoration: none;
     color: var(--cor-quarcaria);
-}
-.footer-end-contact img {
-    filter: invert(100%)
 }
 .esdress {
     width: 600px;

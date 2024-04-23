@@ -74,7 +74,8 @@
   .history-img img {
     margin-top: 4rem;
     width: 85%;
-    margin-left: -1rem;
+    height: 15rem;
+    margin-left: 0.5rem;
   }
   footer {
     width: 100%;
@@ -228,7 +229,8 @@
   }
   .history-img img {
     width: 85%;
-    margin-left: -1rem;
+    height: 15rem;
+    margin-left: -0.5rem;
   }
   footer {
     width: 100%;
@@ -443,7 +445,7 @@
   }
 }
 
-@media only screen and (max-width: 1280px) {
+@media (min-width: 1280px) {
   .article {
     margin-top: 2rem;
   }
@@ -454,11 +456,11 @@
     font-size: 1rem;
   }
   .article-sobre {
-    width: 600px;
+    width: 1200px;
     height: 200px;
   }
   .article-history {
-    flex-direction: column-reverse;
+    flex-direction: row;
     margin-top: 2rem;
     margin-left: 2.5rem;
   }
@@ -466,7 +468,8 @@
     width: 85%;
   }
   .history-img img {
-    width: 95%;
+    width: 45rem;
+    height: 35rem;
   }
   .footer-link-nav {
     width: 120px;

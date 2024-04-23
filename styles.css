@@ -80,7 +80,8 @@ header {
 .article-history {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
+    margin: 5%;
     margin-top: 5rem;
     gap: 4rem;
 }
@@ -103,6 +104,8 @@ header {
     font-size: 18px;
 }
 .history-img img {
+    width: 47rem;
+    height: 32rem;
     border-radius: 1rem;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);

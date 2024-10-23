@@ -123,6 +123,7 @@ footer {
 .footer-logo-tipo {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     margin-left: 3rem;
     gap: 1rem;
 }

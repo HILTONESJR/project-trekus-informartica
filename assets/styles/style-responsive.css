@@ -482,7 +482,8 @@
     width: 350px;
   }
   .contact {
-    margin-top: -1rem;
+    margin-top: 1rem;
+    margin-right: 5%
   }
   .article-sobre-serv {
     width: 90%;

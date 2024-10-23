@@ -166,3 +166,6 @@ footer {
     display: flex;
     flex-direction: column;
 }
+.contact a {
+    text-decoration: none;
+}

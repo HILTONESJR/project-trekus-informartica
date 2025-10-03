@@ -69,7 +69,9 @@
             </div>
 
       <div class="contact-form">
-            <form action="https://formsubmit.co/bmxsts@gmail.com" method="POST">
+            <form action="https://api.web3forms.com/submit" method="POST">
+              <input type="hidden" name="access_key" value="cdd7ca54-3552-42f9-a362-78befe9018f1">
+              
               <label for="name">Nome Completo:</label>
               <input placeholder="Digite o seu nome completo" type="text" name="name" id="txtName" required>
           
@@ -81,6 +83,8 @@
           
               <label for="character">Menssagem:</label>
               <textarea placeholder="Digite sua menssagem"  name="character" cols="30" rows="10" id="txtCharacter"></textarea>
+
+              <input type="hidden" name="redirect" value="https://web3forms.com/success">
             
               <button type="submit" id="btnSubscribe">Enviar</button>
             </form>
